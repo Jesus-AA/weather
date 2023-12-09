@@ -1,27 +1,13 @@
-# React + TypeScript + Vite
+### WeatherNow App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+WeatherNow is a simple and user-friendly weather application that allows users to quickly check the current weather conditions in any city worldwide. With just a few clicks, you can input the city of your choice and get instant access to real-time weather information.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+City-based Weather: Input the name of any city to receive up-to-date weather details.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Current Conditions: View the current temperature, humidity, wind speed, and weather description for the selected city.
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Intuitive User Interface: With a clean and intuitive interface, WeatherNow makes it easy for users of all levels to access weather information effortlessly.
